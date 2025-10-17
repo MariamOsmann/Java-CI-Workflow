@@ -8,4 +8,15 @@ public class CalculatorTest {
         Calculator calc = new Calculator();
         assertEquals(5, calc.add(2, 3));
     }
+    @Test
+    void testSubtract() {
+        Calculator c = new Calculator();
+        assertEquals(2, c.subtract(5, 3));
+    }
+
+    @Test
+    void testMultiply() {
+        Calculator c = new Calculator();
+        assertEquals(15, c.multiply(5, 3));
+    }
 }
